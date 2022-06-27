@@ -12,7 +12,7 @@
 
 ## Table of contents
 
-- [Features](#features)
+- [Features!](#features)
 - [Sponsors 🏆](#sponsors)
 - [**Build your website in 3 steps**](#build-your-website-in-3-steps)
 - [Plans](#plans)
