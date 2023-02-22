@@ -85,13 +85,13 @@
             </div>
             <div class="divider-10"></div>
             <div class="flexcontainer">
-                <div> <a href="http://www.centralesupelec.fr/en/ecole-centrale-engineering-program"
+                <div> <a href="https://www.centralesupelec.fr/en/ecole-centrale-engineering-program"
                         onclick="trackOutboundLink(this);"> <img height="78px"
                             src="images/ECP4067.png?629730dde84c7314cc74d584005f427d" width="100px"> </a> </div>
                 <div>
                     <ul>
                         <li>Centrale Paris engineering curriculum (ECP 17)</li>
-                        <li>Research at the <a href="http://cvn.ecp.fr/" onclick="trackOutboundLink(this);">Center for
+                        <li>Research at the <a href="https://cvn.ecp.fr/" onclick="trackOutboundLink(this);">Center for
                                 Visual Computing (CVC)</a> with Professors Evangelia I. Zacharaki and Nikos Paragios
                         </li>
                     </ul>
@@ -341,7 +341,7 @@
                         class="fa fa-github fa-3x fa-fw"></i></a> <a
                     href="https://scholar.google.com/citations?user=XQmk6SQAAAAJ" onclick="trackOutboundLink(this);"><i
                         class="fa fa-google fa-3x fa-fw"></i></a> <a class="crptdml" data-domain="mit" data-name="Darzi"
-                    data-tld="edu" href="http://127.0.0.1:5500/www.mit.edu/_amidi/index.html#mail"
+                    data-tld="edu" href="https://127.0.0.1:5500/www.mit.edu/_amidi/index.html#mail"
                     onclick="trackOutboundLink(this); window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"><i
                         class="fa fa-envelope fa-3x fa-fw"></i></a> </div>
         </div>
@@ -365,7 +365,7 @@
                         parent.appendChild(elem);
                     }
                 }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var protocol = window.location.protocol === 'https:' ? 'ws://' : 'wss://';
                 var address = protocol + window.location.host + window.location.pathname + '/ws';
                 var socket = new WebSocket(address);
                 socket.onmessage = function (msg) {

@@ -116,7 +116,7 @@
                 <div>
                     <ul>
                         <li>Centrale Paris engineering curriculum (ECP 17)</li>
-                        <li>Research at the <a href="http://cvn.ecp.fr/" onclick="trackOutboundLink(this);">Center for
+                        <li>Research at the <a href="https://cvn.ecp.fr/" onclick="trackOutboundLink(this);">Center for
                                 Visual Computing (CVC)</a> with Professors Evangelia I. Zacharaki and Nikos Paragios
                         </li>
                     </ul>
@@ -365,7 +365,7 @@
 						parent.appendChild(elem);
 					}
 				}
-				var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+				var protocol = window.location.protocol === 'https:' ? 'ws://' : 'wss://';
 				var address = protocol + window.location.host + window.location.pathname + '/ws';
 				var socket = new WebSocket(address);
 				socket.onmessage = function (msg) {
